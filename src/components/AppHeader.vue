@@ -1,11 +1,10 @@
 <template>
-    <p>AppHeader</p>
-</template>
-
-<!-- <router-link to="/">Home</router-link> |
+    <router-link to="/">Home</router-link> |
     <router-link to="/projects">Projects</router-link> |
     <router-link to="/contact">Contact</router-link>
+    
+    <router-view />
+</template>
 
-    <router-view /> -->
 
-    <script></script>
+<script></script>
