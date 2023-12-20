@@ -11,7 +11,7 @@
   
   <script>
   export default {
-    name: 'Projects',
+    name: 'MyProjects',
     data() {
       return {
         projects: [
