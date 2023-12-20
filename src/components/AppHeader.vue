@@ -1,10 +1,19 @@
 <template>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/projects">Projects</router-link> |
-    <router-link to="/contact">Contact</router-link>
-    
-    <router-view />
+    <RouterView />
+        <RouterLink to="/">Home</RouterLink> |
+        <RouterLink to="/projects">Projects</RouterLink> |
+        <RouterLink to="/contact">Contact</RouterLink>
+    <RouterView />
 </template>
 
 
-<script></script>
+<script>
+import { RouterView, RouterLink } from 'vue-router';
+
+export default {
+  components: {
+    RouterView,
+    RouterLink,
+  },
+};
+</script>

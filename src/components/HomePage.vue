@@ -19,7 +19,7 @@
     methods: {
       async fetchIntroduction() {
         try {
-          const response = await fetch('http://vue-wp.local/wp-json/wp/v2/pages/1');
+          const response = await fetch('http://vue-wp.local/wp-json/');
   
           if (!response.ok) {
             throw new Error('Failed to fetch data');
