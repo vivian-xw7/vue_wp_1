@@ -26,7 +26,8 @@
           }
   
           const data = await response.json();
-          this.introduction = data.content.rendered; // Adjust the property name based on your API response
+          console.log('API Response:', data)
+        //   this.introduction = data.content.rendered; // Adjust the property name based on your API response
         } catch (error) {
           console.error('Error fetching data:', error);
         }
