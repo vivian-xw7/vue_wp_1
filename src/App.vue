@@ -26,3 +26,5 @@ export default {
 <style>
 /* Your styles for the App component */
 </style>
+
+<!-- C:\Users\Vivian\Local Sites\vue-wp\app\public\wp-content\themes\vue_wp_1\src\components\AppHeader.vue -->
