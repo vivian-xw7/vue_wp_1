@@ -1,10 +1,9 @@
 <template>
     <div class="">
-        <RouterView />
-            <RouterLink to="/">Home</RouterLink> |
-            <RouterLink to="/my-projects">Projects</RouterLink> |
-            <RouterLink to="/contact-me">Contact</RouterLink>
-        <RouterView />
+      <RouterLink to="/">Home</RouterLink> |
+      <RouterLink to="/projects">Projects</RouterLink> |
+      <RouterLink to="/contact">Contact</RouterLink>
+      <RouterView />
     </div>
 </template>  
 
