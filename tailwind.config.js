@@ -2,7 +2,18 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'roboto': [
+          "'Roboto Mono'",
+          'san-serif'
+        ],
+        'poppins': [
+          'Poppins',
+          'san-serif'
+        ]
+      }
+    },
   },
   plugins: [],
 }

@@ -106,12 +106,41 @@
   font-display: swap;
 }
 
-
-
-.text-heading {
-  @apply text-2xl font-bold;
+.hdg-1 {
+  @apply font-poppins;
 }
 
-.text-body {
-  @apply text-base;
+.hdg-2 {
+  @apply font-poppins;
 }
+
+.hdg-3 {
+  @apply font-poppins;
+}
+
+.hdg-4 {
+  @apply font-poppins;
+}
+
+.hdg-5 {
+  @apply font-roboto;
+}
+
+.hdg-6 {
+  @apply font-roboto;
+}
+
+
+.type-base {
+  @apply font-roboto;
+}
+
+.type-large {
+  @apply font-roboto;
+}
+
+.type-small {
+  @apply font-roboto;
+}
+
+
