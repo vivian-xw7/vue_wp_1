@@ -1,10 +1,10 @@
 <template>
-    <nav class="">
-      <RouterLink to="/">Home</RouterLink> |
-      <RouterLink to="/projects">Projects</RouterLink> |
-      <RouterLink to="/contact">Contact</RouterLink>
-      <RouterView />
+    <nav class="navbar">
+      <RouterLink to="/">// Home</RouterLink>
+      <RouterLink to="/projects">// Projects</RouterLink>
+      <RouterLink to="/contact">// Contact</RouterLink>
     </nav>
+    <RouterView />
 </template>  
 
 
@@ -18,3 +18,7 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+@import "../styles/navbar.css";
+</style>
