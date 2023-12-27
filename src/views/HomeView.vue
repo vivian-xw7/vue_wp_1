@@ -11,11 +11,8 @@
       <p class="hdg-6">heading 6</p>
 
       <p class="type-large">large</p>
-      <p class="type-large font-bold">bold large</p>
       <p class="type-base">base</p>
-      <p class="type-base font-bold">bold base</p>
       <p class="type-small">small</p>
-      <p class="type-small font-bold">bold small</p>
     </div>
 
     <!-- <div>
