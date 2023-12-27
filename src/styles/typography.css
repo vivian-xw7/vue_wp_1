@@ -107,27 +107,27 @@
 }
 
 .hdg-1 {
-  @apply font-poppins text-8xl font-semibold;
+  @apply font-poppins text-8xl font-semibold my-0;
 }
 
 .hdg-2 {
-  @apply font-poppins text-5xl font-semibold;
+  @apply font-poppins text-5xl font-semibold my-0;
 }
 
 .hdg-3 {
-  @apply font-poppins text-4xl;
+  @apply font-poppins text-4xl font-semibold my-0;
 }
 
 .hdg-4 {
-  @apply font-poppins text-3xl;
+  @apply font-poppins text-3xl font-semibold my-0;
 }
 
 .hdg-5 {
-  @apply font-roboto text-2xl uppercase font-medium;
+  @apply font-roboto text-2xl uppercase font-medium my-0;
 }
 
 .hdg-6 {
-  @apply font-roboto text-xl uppercase;
+  @apply font-roboto text-xl uppercase my-0;
 }
 
 

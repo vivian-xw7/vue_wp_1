@@ -20,7 +20,6 @@ module.exports = {
         '7xl': 80/16 + 'rem',
         '8xl': 96/16 + 'rem',
       },
-      fontWeight: {},
       lineHeight: {
         none: '1',
         tight: '1.25',
