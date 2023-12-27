@@ -22,7 +22,6 @@ export default {
 </script>
 
 <style>
-/* Your styles for the App component */
 @import "./index.css";
 </style>
 
