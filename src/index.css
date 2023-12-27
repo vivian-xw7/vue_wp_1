@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-#app {
-    @apply font-roboto;
+.base {
+    h1, h2, h3, h4, h5, h6, p, span, a {
+        @apply font-roboto;
+    }
 }

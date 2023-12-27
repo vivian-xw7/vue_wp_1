@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <AppHeader />
-
-    <AppFooter />
+    <div class="base">
+      <AppHeader />
+      
+      <AppFooter />
+    </div>
   </div>
 </template>
 
@@ -21,5 +23,6 @@ export default {
 
 <style>
 /* Your styles for the App component */
+@import "./index.css";
 </style>
 
