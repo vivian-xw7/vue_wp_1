@@ -107,40 +107,40 @@
 }
 
 .hdg-1 {
-  @apply font-poppins text-8xl;
+  @apply font-poppins text-8xl font-semibold;
 }
 
 .hdg-2 {
-  @apply font-poppins;
+  @apply font-poppins text-5xl;
 }
 
 .hdg-3 {
-  @apply font-poppins;
+  @apply font-poppins text-4xl;
 }
 
 .hdg-4 {
-  @apply font-poppins;
+  @apply font-poppins text-3xl;
 }
 
 .hdg-5 {
-  @apply font-roboto;
+  @apply font-roboto text-2xl uppercase font-medium;
 }
 
 .hdg-6 {
-  @apply font-roboto;
+  @apply font-roboto text-xl uppercase;
 }
 
 
 .type-base {
-  @apply font-roboto;
+  @apply font-roboto text-base;
 }
 
 .type-large {
-  @apply font-roboto;
+  @apply font-roboto text-lg;
 }
 
 .type-small {
-  @apply font-roboto;
+  @apply font-roboto text-sm;
 }
 
 

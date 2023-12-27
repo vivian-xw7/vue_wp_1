@@ -1,8 +1,21 @@
 <template>
     <div>
-      <h1 class="hdg-1">Vivian Hayes</h1>
-      <h2>Welcome to My Portfolio</h2>
-      <p>Hi, I'm Vivian. I'm a web developer passionate about creating awesome web experiences.</p>
+      <!-- <h1 class="hdg-1">Vivian Hayes</h1> -->
+      <!-- <h2>Welcome to My Portfolio</h2> -->
+      <!-- <p>Hi, I'm Vivian. I'm a web developer passionate about creating awesome web experiences.</p> -->
+      <p class="hdg-1">heading 1</p>
+      <p class="hdg-2">heading 2</p>
+      <p class="hdg-3">heading 3</p>
+      <p class="hdg-4">heading 4</p>
+      <p class="hdg-5">heading 5</p>
+      <p class="hdg-6">heading 6</p>
+
+      <p class="type-large">large</p>
+      <p class="type-large font-bold">bold large</p>
+      <p class="type-base">base</p>
+      <p class="type-base font-bold">bold base</p>
+      <p class="type-small">small</p>
+      <p class="type-small font-bold">bold small</p>
     </div>
 
     <!-- <div>
