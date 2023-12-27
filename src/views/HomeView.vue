@@ -1,7 +1,7 @@
 <template>
     <div>
-      <h1>Welcome to My Portfolio</h1>
-      <h2>THIS IS THE VIEW</h2>
+      <h1 class="hdg-1">Vivian Hayes</h1>
+      <h2>Welcome to My Portfolio</h2>
       <p>Hi, I'm Vivian. I'm a web developer passionate about creating awesome web experiences.</p>
     </div>
 
@@ -47,6 +47,6 @@
   </script>
   
   <style scoped>
-  /* Add your styles here */
+  @import "../styles/typography.css";
   </style>
   
