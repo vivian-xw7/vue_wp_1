@@ -1,9 +1,11 @@
 <template>
     <nav class="navbar">
-      <RouterLink to="/">// Home</RouterLink>
-      <RouterLink to="/projects">// Projects</RouterLink>
-      <RouterLink to="/contact">// Contact</RouterLink>
+      <RouterLink class="nav-link mr-4" to="/">// Home</RouterLink>
+      <RouterLink class="nav-link mr-4" to="/projects">// Projects</RouterLink>
+      <RouterLink class="nav-link mr-4" to="/contact">// Contact</RouterLink>
     </nav>
+
+    <!-- pulls in the rest of thhe site -->
     <RouterView />
 </template>  
 

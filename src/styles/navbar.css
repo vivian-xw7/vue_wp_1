@@ -1,3 +1,7 @@
 .navbar {
     background-color: red;
+
+    a.nav-link {
+        @apply mr-6;
+    }
 }
