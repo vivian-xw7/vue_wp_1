@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
       <!-- <h1 class="hdg-1">Vivian Hayes</h1> -->
       <!-- <h2>Welcome to My Portfolio</h2> -->
       <!-- <p>Hi, I'm Vivian. I'm a web developer passionate about creating awesome web experiences.</p> -->

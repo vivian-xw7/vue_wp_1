@@ -111,7 +111,7 @@
 }
 
 .hdg-2 {
-  @apply font-poppins text-5xl;
+  @apply font-poppins text-5xl font-semibold;
 }
 
 .hdg-3 {
