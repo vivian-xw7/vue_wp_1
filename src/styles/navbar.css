@@ -1,7 +1,10 @@
 .navbar {
-    background-color: red;
-
     a.nav-link {
-        @apply mr-6;
+        @apply mr-12 text-lg font-semibold;
+        transition: 0.6s;
+
+        /* &:hover {
+            @apply opacity-50;
+        } */
     }
 }

@@ -1,11 +1,11 @@
 <template>
-    <nav class="navbar">
-      <RouterLink class="nav-link mr-4" to="/">// Home</RouterLink>
-      <RouterLink class="nav-link mr-4" to="/projects">// Projects</RouterLink>
-      <RouterLink class="nav-link mr-4" to="/contact">// Contact</RouterLink>
+    <nav class="navbar py-8">
+      <RouterLink class="nav-link " to="/">// Home</RouterLink>
+      <RouterLink class="nav-link " to="/projects">// Projects</RouterLink>
+      <RouterLink class="nav-link " to="/contact">// Contact</RouterLink>
     </nav>
 
-    <!-- pulls in the rest of thhe site -->
+    <!-- pulls in the rest of the site -->
     <RouterView />
 </template>  
 
