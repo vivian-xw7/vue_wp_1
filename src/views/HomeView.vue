@@ -17,12 +17,12 @@
 
     <div class="container">
       <p v-if="isLoading">Loading...</p>
-      <div>{{ post.length > 0 ? post[0].title.rendered : '' }}</div>
-      <!-- <ul v-for="p in post" :key="p.id">
-        <h1>{{ p.title }}</h1>
-        <p>{{ p.content }}</p>
+      <!-- <div>{{ post.length > 0 ? post[0].title.rendered : '' }}</div> -->
+      <ul v-for="p in post" :key="p.id">
+        <li class="hdg-3">{{ p.title.rendered }}</li>
+        <p>{{ p.content.rendered }}</p>
         <p class="date">{{ p.createdAt }}</p>
-      </ul> -->
+      </ul>
     </div>
 
     <!-- <div>
