@@ -17,10 +17,9 @@
 
     <div class="container">
       <p v-if="isLoading">Loading...</p>
-      <!-- <div>{{ post.length > 0 ? post[0].title.rendered : '' }}</div> -->
       <ul v-for="p in post" :key="p.id">
-        <li class="hdg-3">{{ p.title.rendered }}</li>
-        <p>{{ p.content.rendered }}</p>
+        <li class="hdg-6">{{ p.title.rendered }}</li>
+        <div v-html="p.content.rendered"></div>
         <p class="date">{{ p.createdAt }}</p>
       </ul>
     </div>
